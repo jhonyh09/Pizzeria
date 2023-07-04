@@ -72,7 +72,7 @@ export const enviarSolicitudWS = async (req, res) => {
     const url = 'https://graph.facebook.com/v17.0/101112756371877/messages/';
     const headers = {
       'Content-Type': 'application/json',
-      'Authorization': 'Bearer EAAEEDinZB4nEBAFL16CL7HI52aiuCEOrrRTarTZBQlZAgU7fagvcUu4FWNguODfPpiuec1C7FZA9ZBZACueJBz9VycMnbjUff4xyzHjq9EvHX33qzEHw30JOqT6fuCWZCbLPeeawZCVZBSTnMGLwu58iZA71AdGUdLA0O2p5He183gzRv2utZBlTlWl'
+      'Authorization': 
     };
     const body = JSON.stringify({
       "messaging_product": "whatsapp",
